@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <hibernate-mapping>  
+  <class name="com.nttdata.Myhib.emp" table="emp">  
+    <id name="empId">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="empName"></property>  
+    <property name="empSalary"></property>  
+            
+  </class>  
+            
+ </hibernate-mapping>
